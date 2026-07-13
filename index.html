@@ -887,7 +887,14 @@ function animatePoll(){
    Firebase 콘솔에서 복사한 설정으로 아래 null을 교체하세요. 예:
    const FIREBASE_CONFIG = { apiKey:"...", authDomain:"...", projectId:"...", storageBucket:"...", messagingSenderId:"...", appId:"..." };
    비워두면(null) 지금처럼 각자 브라우저에만 저장됩니다. */
-const FIREBASE_CONFIG = null;
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyAj97cQRJ-F0b6bc4zYZMBGAu_UCxUAVko",
+  authDomain: "seoil-guestbook.firebaseapp.com",
+  projectId: "seoil-guestbook",
+  storageBucket: "seoil-guestbook.firebasestorage.app",
+  messagingSenderId: "937844335404",
+  appId: "1:937844335404:web:42f889144f6ae137dd0289"
+};
 
 let fdb = null;
 let comments = [];

@@ -618,15 +618,20 @@ footer{background:#0B0B0A;color:#EDEDEA;padding:90px 28px 0}
           <text x="12" y="164" class="floor-tag">3F</text>
           <text x="12" y="216" class="floor-tag">2F</text>
           <text x="12" y="268" class="floor-tag">1F</text>
-          <!-- 5F: Wee클래스 (5층 가운데) -->
-          <g class="room-g" data-info="info-wee">
-            <rect class="room main" x="76" y="41" width="98" height="30" rx="10"/>
-            <text x="92" y="60" class="room-label" font-weight="700">💬 Wee클래스</text>
-          </g>
-          <!-- 4F: 커리어존 -->
+          <!-- 5F: 커리어존 / Wee클래스 -->
           <g class="room-g" data-info="info-career">
+            <rect class="room" x="38" y="41" width="62" height="30" rx="7"/>
+            <text x="44" y="60" class="room-label">커리어존</text>
+          </g>
+          <g class="room-g" data-info="info-wee">
+            <rect class="room main" x="140" y="41" width="66" height="30" rx="10"/>
+            <text x="144" y="60" class="room-label" font-weight="700">💬 Wee클래스</text>
+          </g>
+          <!-- 4F: 생물·지학실 -->
+          <g class="room-g" data-info="info-bio">
             <rect class="room" x="38" y="90" width="62" height="36" rx="7"/>
-            <text x="44" y="112" class="room-label">커리어존</text>
+            <text x="47" y="105" class="room-label">생물·</text>
+            <text x="47" y="119" class="room-label">지학실</text>
           </g>
           <!-- 3F: 물리·화학실 -->
           <g class="room-g" data-info="info-phys">
@@ -674,8 +679,9 @@ footer{background:#0B0B0A;color:#EDEDEA;padding:90px 28px 0}
         <div class="map-info show" id="info-default">궁금한 공간을 클릭하면 위치와 이용 팁이 여기에 표시됩니다.</div>
         <div class="map-info" id="info-health"><h3>🏥 보건실</h3>본관 1층. 몸이 안 좋을 때 언제든 방문하세요. 점심시간 직후가 가장 붐빕니다.</div>
         <div class="map-info" id="info-multi"><h3>💻 멀티미디어실</h3>별관 1층. 정보 수업과 영상 시청, 동아리 발표 준비까지 담당하는 만능 공간.</div>
-        <div class="map-info" id="info-wee"><h3>💬 Wee클래스 (상담실)</h3>본관 5층 가운데의 아늑한 공간. 진로·고민 상담 모두 환영, 예약하면 조용히 이야기할 수 있어요.</div>
-        <div class="map-info" id="info-career"><h3>🎯 커리어존 (진로진학 정보실)</h3>본관 4층. 진로·입시 자료가 모여 있는 곳. 올라가기 힘들지만, 미래를 위해서라면 4층쯤이야.</div>
+        <div class="map-info" id="info-wee"><h3>💬 Wee클래스 (상담실)</h3>본관 5층의 아늑한 공간. 진로·고민 상담 모두 환영, 예약하면 조용히 이야기할 수 있어요.</div>
+        <div class="map-info" id="info-career"><h3>🎯 커리어존 (진로진학 정보실)</h3>본관 5층. 진로·입시 자료가 모여 있는 곳. 올라가기 힘들지만, 미래를 위해서라면 5층쯤이야.</div>
+        <div class="map-info" id="info-bio"><h3>🔬 생물·지학실</h3>본관 4층. 생물과 지구과학 실험이 열리는 곳. 현미경과 암석 표본이 기다립니다.</div>
         <div class="map-info" id="info-phys"><h3>🧪 물리·화학실</h3>본관 3층. 물리와 화학 실험이 열리는 곳.</div>
         <div class="map-info" id="info-global"><h3>🌍 글로벌인재실</h3>본관 2층. 각종 프로그램과 활동이 열리는 특별한 공간.</div>
         <div class="map-info" id="info-neulpum"><h3>📖 늘품 (자습실)</h3>별관 3층. 조용히 집중하고 싶을 때 서일인들이 모이는 곳.</div>
